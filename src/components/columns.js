@@ -7,15 +7,23 @@ const COLUMNS = [
         <div style={{ display: "flex", flex: "row" }}>
           <img
             style={{
-              height: "40px",
-              width: "40px",
+              height: "25px",
+              width: "25px",
               borderRadius: "100%",
               padding: "0",
-              marginLeft: "4px",
+              marginRight: "6px",
             }}
-            src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_960_720.png"
+            src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg?w=2000"
+            alt="profile"
           />
-          <p>{original.person.name}</p>
+          <p
+            style={{
+              margin: "0",
+              marginTop: "5px",
+            }}
+          >
+            {original.person.name}
+          </p>
         </div>
       );
     },
